@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.one, .two, .thri{
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    color: red;
+}
+
+.two{
+    color: yellow;
+}
+
+.thri{
+    color: green;
+}
+
+.container{
+    width: 1280px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.svetafor{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.red{
+    border:  3px solid black;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(86, 85, 85, 0.325);
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.yellow{
+    border:  3px solid black;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(86, 85, 85, 0.325);
+    border-radius: 50px; 
+    margin-bottom: 10px;
+}
+
+.green{
+    border:  3px solid black;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(86, 85, 85, 0.325);
+    border-radius: 50px;  
+}
+
+@media (max-width:375px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .container{
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0 auto;
+    }
+
+    h1{
+        font-size: 28px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    .svetafor{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
